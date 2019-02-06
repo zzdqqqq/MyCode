@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.13)
+project(MyCode)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(bubblesort bubblesort/main.cpp)
+add_executable(DrawByCPP DrawByCPP/main.cpp)
+add_executable(findNumber findNumber/main.cpp)
+add_executable(MyCode2 MyCode2/main.cpp)
+add_executable(MyCode3_pointandreference MyCode3_pointandreference/main.cpp)
+add_executable(quizTest quizTest/main.cpp)
+add_executable(radixSort radixSort/main.cpp)
+add_executable(shuffle shuffle/main.cpp)
+add_executable(sortanykey sortanykey/main.cpp)
+add_executable(test_vectorErase test_vectorErase/main.cpp)
+add_executable(testCMATH testCMATH/main.cpp)
+add_executable(testLYR testLYR/main.cpp)
+add_executable(testRecur testRecur/main.cpp)
