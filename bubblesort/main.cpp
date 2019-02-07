@@ -19,6 +19,8 @@ void bubblesort(int x[], int n)
     for (int j = 0; j < n-1; j++){
         bool done = true;
         for (int i = 0; i < n-1; i++)// 必须是n-1,如果是n第一个会到array外，就没了
+                                    // 这里不是又没了，是如果是n-1的话就会吧array外面的乱七八糟
+                                    // 的东西弄进来。
             if (x[i] > x[i+1]){
                 int temp = x[i];
                 x[i] = x[i+1];
